@@ -10,8 +10,8 @@ export class SampleApp extends cdk.Stage {
     });
 
     // just doing a simple ssm parameter lookup to have the CDK read from the account
-    var param = ssm.StringParameter.valueFromLookup(stack, '/aws/service/ecs/optimized-ami/amazon-linux/recommended')
-    param = param + " MODIFICADO "
+    const param = ssm.StringParameter.valueFromLookup(stack, '/aws/service/ecs/optimized-ami/amazon-linux/recommended')
+
     new cdk.CfnOutput(stack, 'Param', {
       value: param
     });
