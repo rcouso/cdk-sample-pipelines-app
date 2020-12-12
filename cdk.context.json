@@ -1,1 +1,4 @@
-{}
+{
+  "ssm:account=722610601746:parameterName=/aws/service/ecs/optimized-ami/amazon-linux/recommended:region=eu-west-1": "{\"schema_version\":1,\"image_name\":\"amzn-ami-2018.03.20201209-amazon-ecs-optimized\",\"image_id\":\"ami-03e6db86ee066afba\",\"os\":\"Amazon Linux\",\"ecs_runtime_version\":\"Docker version 19.03.13-ce\",\"ecs_agent_version\":\"1.48.1\"}",
+  "ssm:account=807034265755:parameterName=/aws/service/ecs/optimized-ami/amazon-linux/recommended:region=eu-west-1": "{\"schema_version\":1,\"image_name\":\"amzn-ami-2018.03.20201209-amazon-ecs-optimized\",\"image_id\":\"ami-03e6db86ee066afba\",\"os\":\"Amazon Linux\",\"ecs_runtime_version\":\"Docker version 19.03.13-ce\",\"ecs_agent_version\":\"1.48.1\"}"
+}
